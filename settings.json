@@ -1,0 +1,21 @@
+{
+    "window.menuBarVisibility": "default",
+    "files.autoSave": "afterDelay",
+    "docker.defaultRegistry": "",
+    "docker.defaultRegistryPath": "",
+    "docker.enableLinting": true,
+    "docker.linterRuleFile": "C:\Users\sjurado\Documents\basic_rules.yaml",
+    "editor.quickSuggestions": true,
+
+    "files.associations": {
+        "**/defautls/**/*": "ansible",
+        "**/tasks/**/*.yml" : "ansible",
+        "**/handler/*.yml" : "ansible",
+        "**/*_vars/**/*.yml" : "ansible",
+        "**/roles/**/*.yml" : "ansible",
+        "**/playbooks/**/*.yml" : "ansible",
+        "**/*ansible*/**/*.yml" : "ansible",
+        "**/vars/**/*.yml": "ansible",
+        "**/inventory/*/*": "ansible"
+    }
+}
